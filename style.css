@@ -1,0 +1,297 @@
+body {
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Krungthep";
+    font-size: 1.3rem;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #f7f7f7;
+}
+
+.nav-link{
+    font-size: 0.9rem;
+}
+
+.dropdown-item{
+    font-size: 0.9rem;
+}
+
+.nav-link2{
+    font-family: "Alcefun";
+}
+
+.banner{
+    margin-top: 5.8rem;
+}
+
+.marca {
+    background-color: white;
+}
+
+.card-service{
+    border-radius: 150px 150px 20px 20px;
+}
+
+.pagina-web{
+    width: 60vh;
+    border-radius: 190px 190px 20px 20px;
+}
+
+.carrucel{
+    width: 40rem;
+    height: 20rem;
+}
+
+.img-web{
+    width: 25vh;
+}
+
+.precio{
+    font-size: 0.7rem;
+}
+
+.valor{
+    font-size: 0.8rem;
+}
+
+.card-title{
+    width: 89%;
+    font-size: 1rem;
+}
+
+.card-text-empresa {
+    font-size: .8rem;
+    text-align: justify;
+}
+
+.card-text-somos {
+    font-family: "Alcefun";
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-text-equipo {
+    font-family: "Alcefun";
+    font-size: .8rem;
+    text-align: center;
+}
+
+.card-text-socios {
+    font-family: "Alcefun";
+    font-size: 1.2rem;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.card-title-servicio {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-text-servicio {
+    font-size: .8rem;
+    
+}
+
+.card-plan{
+    width: 70%;
+}
+
+.img-equipo {
+    width: 60%;
+    border: solid 15px transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(120deg, #161616, #f8104e);
+    background-origin: border-box;
+}
+
+.comprar {
+    text-decoration: none;
+}
+
+.form-control {
+    font-size: .8rem;
+}
+
+
+.cont-contacto {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-around;
+    background-color: #f8104e;
+}
+
+.fondo-equipo{
+    background-color: #e5e5e5;
+    overflow: hidden;
+}
+
+.fondo-socios{
+    background-color: #f8104e;
+    overflow: hidden;
+}
+
+.cont-contacto .form {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto 20px auto;
+    padding: 0px 10px;
+}
+
+.cont-contacto .form input {
+    height: 30px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+}
+
+.cont-contacto .form textarea {
+    height: 100px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+}
+
+.cont-contacto .form .btn {
+    font-family: "Alcefun";
+    border-radius: 2px;
+    width: 80px;
+    color: #f7f7f7;
+    background-color: #161616;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+label {
+    font-family: "Alcefun";
+    font-size: 1.2rem;
+    color: black;
+}
+
+.logoA {
+    max-width: 60%;
+    text-align: center;
+}
+
+.parrafoLogo {
+    font-size: 1.5rem;
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+}
+
+.parrafoLogo1 {
+    font-size: 1rem;
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+}
+
+.btn-contact{
+    background-color: #f8104e;
+    color: #f7f7f7;
+}
+
+footer{
+    background-color: #161616;
+    overflow: hidden;
+}
+
+.footer-section{
+    font-family: "Alcefun";
+    color: #f7f7f7;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.servicios {
+    width: 100%;
+}
+
+.cell-app {
+    width: 50%;
+}
+
+.categorias{
+    background-color: #161616;
+}
+
+
+
+
+
+
+
+/*Media Querys*/
+@media screen and (max-width: 767px){
+    .nuestro-equipo1{
+        width: 80%;
+        margin: auto;
+    }
+
+    .nuestra-empresa1{
+        width: 50%;
+        margin: auto;
+    }
+
+    .nuestro-servicio1{
+        width: 50%;
+        margin: auto;
+    }
+
+    main {
+        background-image: url(./img/4.png);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .tarjeta{
+        width: 80%;
+    }
+
+    .nuestra-empresa1{
+        width: 80%;
+        margin: auto;
+    }
+
+    .empresa{
+        width: 80%;
+    }
+
+    .pagina-web{
+        width: 80%;
+    }
+
+    .nuestro-servicio1{
+        width: 80%;
+        margin: auto;
+    }
+    main {
+        background-image: url(./img/4.png);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+}

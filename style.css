@@ -142,6 +142,7 @@ body {
     overflow: hidden;
 }
 
+/*
 .cont-contacto .form {
     display: block;
     max-width: 80%;
@@ -181,7 +182,7 @@ label {
     font-family: "Alcefun";
     font-size: 1.2rem;
     color: black;
-}
+}*/
 
 .logoA {
     max-width: 60%;
@@ -202,7 +203,23 @@ label {
 
 .btn-contact{
     background-color: #f8104e;
-    color: #f7f7f7;
+    color: white;
+}
+
+.btn-send{
+    background-color: #f8104e;
+    color: white;
+    font-family: "Alcefun";
+}
+
+.texto-modal{
+    color: #161616;
+    font-family: "Alcefun";
+}
+
+.texto-modal-title{
+    color: #161616;
+    font-family: "Krungthep";
 }
 
 footer{
@@ -232,6 +249,53 @@ footer{
 .categorias{
     background-color: #161616;
 }
+
+
+#modal {
+    width: 50vh;
+    margin: 5vh 0vh 0vh 70vh;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto 10px auto;
+    padding: 0px 10px;
+}
+
+input {
+    height: 25px;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(223, 223, 223);
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(223, 223, 223);
+}
+
+button {
+    font-family: "Alcefun";
+    border-radius: 5px;
+    width: 150px;
+}
+
+label {
+    font-size: 1rem;
+    font-family: "Alcefun";
+    color: #161616;
+}
+
 
 
 

@@ -68,6 +68,18 @@ body {
     width: 25vh;
 }
 
+.img-cap{
+    width: 6rem;
+}
+
+.img-cap1{
+    width: 7rem;
+}
+
+.img-cap2{
+    width: 6.5rem;
+}
+
 .precio{
     font-size: 0.7rem;
 }

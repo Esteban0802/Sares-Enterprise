@@ -24,29 +24,26 @@ body {
     border-width: 2px;
 }
 
-.navbar-toggler-icon{
-    color: rgb(255, 255, 255) !important;  
-}
-
 .dropdown-menu{
     background-color: #161616;
 }
 
 .nav-link{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: white;
 }
 
 .dropdown-item{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
-.nav-link2{
-    font-family: "Alcefun";
+.brand-nav{
+    width: 7vh;
+    height: 7vh;
 }
 
 .banner{
-    margin-top: 5.8rem;
+    margin-top: 4rem;
 }
 
 .marca {
@@ -162,48 +159,6 @@ body {
     overflow: hidden;
 }
 
-/*
-.cont-contacto .form {
-    display: block;
-    max-width: 80%;
-    height: auto;
-    margin: 20px auto 20px auto;
-    padding: 0px 10px;
-}
-
-.cont-contacto .form input {
-    height: 30px;
-    width: 100%;
-    border: solid;
-    border-color: rgb(225, 225, 225);
-    background-color: rgb(255, 255, 255);
-}
-
-.cont-contacto .form textarea {
-    height: 100px;
-    width: 100%;
-    border: solid;
-    border-color: rgb(225, 225, 225);
-    background-color: rgb(255, 255, 255);
-}
-
-.cont-contacto .form .btn {
-    font-family: "Alcefun";
-    border-radius: 2px;
-    width: 80px;
-    color: #f7f7f7;
-    background-color: #161616;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    overflow: hidden;
-}
-
-label {
-    font-family: "Alcefun";
-    font-size: 1.2rem;
-    color: black;
-}*/
-
 .logoA {
     max-width: 60%;
     text-align: center;
@@ -245,6 +200,24 @@ label {
 footer{
     background-color: #161616;
     overflow: hidden;
+}
+
+.logo-foot{
+    width: 30vh;
+    height: 30vh;
+}
+
+.text-foot{
+    font-family: "Alcefun";
+    color: #f7f7f7;
+}
+
+.logo-redes-insta{
+    width: 2rem;
+}
+
+.logo-redes-linkedin{
+    width: 2.5rem;
 }
 
 .footer-section{
@@ -316,8 +289,22 @@ label {
     color: #161616;
 }
 
+.btn-wsp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background:  #f8104e;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
 
- /* Estilo para que el menú móvil cubra toda la pantalla */
  
 
 

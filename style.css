@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-    background-color: #161616;
+    background-color: #161616 !important;
 }
 
 .navbar-toggler{
@@ -127,9 +127,24 @@ body {
     
 }
 
-.card-service:hover {
+.img-cap:hover {
     transform: scale(0.95);
     transition: 0.3s;
+}
+
+.img-cap1:hover {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.img-cap2:hover {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.img-card-food:hover{
+    transform: scale(0.95);
+    transition: 0.1s;
 }
 
 
@@ -317,6 +332,16 @@ label {
     z-index: 100;
 }
 
+
+.card-text .full-text {
+    display: none;
+}
+
+
+
+
+
+
  
 
 
@@ -334,7 +359,7 @@ label {
         height: 100%;
         background-color: #161616; /* Fondo oscuro */
         z-index: 1050;
-        transition: transform 0.15s ease-in-out;
+        transition: transform 0s ease-in-out;
     }
 
     .navbar-collapse.show {

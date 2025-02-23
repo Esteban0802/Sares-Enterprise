@@ -98,8 +98,22 @@ body {
     margin: 0px 5px 0px 5px;
 }
 
-.card{
+.card-valores{
     border-radius: 50px 50px 0px 0px;
+    background-color: #cc174e;
+}
+
+.img-socios{
+    width: 70vh;
+}
+
+.socios{
+    background-color: #DDDDDD;
+}
+
+.card-socio{
+    width: 145vh;
+    background-color: #DDDDDD;
 }
 
 .btn-about{
@@ -240,11 +254,6 @@ background-color: #DDDDDD;
     background-color: #161616;
     overflow: hidden;
 }
-
-.card{
-    background-color: #cc174e;
-}
-
 .logoA {
     max-width: 60%;
     text-align: center;

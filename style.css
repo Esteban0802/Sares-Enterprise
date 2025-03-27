@@ -112,7 +112,7 @@ body {
 }
 
 .card-socio{
-    width: 145vh;
+    width: auto;
     background-color: #DDDDDD;
 }
 
@@ -221,6 +221,9 @@ overflow: hidden;
     transition: 0.1s;
 }
 
+hr{
+    width: auto;
+}
 
 
 .card-plan{

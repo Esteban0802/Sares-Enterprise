@@ -158,6 +158,7 @@ body {
     width: 89%;
     font-size: 1.2rem;
     color: #cc174e;
+
 }
 
 .card-text-empresa {
@@ -187,7 +188,7 @@ body {
 
 .fondo-socios{
 background-color: #DDDDDD;
-    overflow: hidden;
+overflow: hidden;
 }
 
 .card-title-servicio {
@@ -522,6 +523,7 @@ label {
     .mission{
         margin: 0px 50px 0px 50px;
         text-align: justify;
+        font-size: .8rem;
     }
 
     .vision-title{
@@ -531,6 +533,7 @@ label {
     .vision{
         margin: 0px 50px 0px 50px;
         text-align: justify;
+        font-size: .8rem;
     }
 
     
@@ -562,6 +565,10 @@ label {
         background-image: url(./img/4.png);
         background-size: cover;
         background-attachment: fixed;
+    }
+
+    .lead-1{
+        font-size: .8rem;
     }
 }
 

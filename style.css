@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-    background-color: white !important;
+    background-color: #161616 !important;
 }
 
 .navbar-toggler{
@@ -38,6 +38,7 @@ body {
 
 .nav-link{
     font-size: 0.7rem;
+    color: white;
 
 }
 
@@ -51,7 +52,7 @@ body {
 }
 
 .banner{
-    margin-top: 4rem;
+    margin-top: 0rem;
 }
 
 .here-you{
@@ -157,7 +158,7 @@ body {
 .card-title{
     width: 89%;
     font-size: 1.2rem;
-    color: #cc174e;
+    color: #161616;
 
 }
 
@@ -299,6 +300,7 @@ hr{
 footer{
     background-color: #161616;
     overflow: hidden;
+    margin-bottom: 4rem;
 }
 
 .logo-foot{
@@ -659,14 +661,13 @@ label {
 
 .contact-title {
     font-size: 2rem;
-    font-style: italic;
+    font-style: normal !important;
 }
 
 .contact-title .sub-title {
     font-family: "Poppins", serif;
     font-size: 1rem;
     color: #141414;
-    margin-left: 10px;
 }
 
 .form-control {

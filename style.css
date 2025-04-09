@@ -650,13 +650,13 @@ label {
 
 
 .contact-section {
-    background-image: url(./img/Fondo\ Contacto-22.png);
+    background-image: url(./img/Fondo\ Contacto-22\ black-22.jpg);
     background-size: cover;
     align-items: center;
     justify-content: center;
     position: relative;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
 .contact-title {
@@ -679,8 +679,14 @@ label {
 
 .submit-btn {
     width: 80%;
-    font-style: italic;
     text-transform: uppercase;
+    background-color: #ff0055;
+    color: white;
+}
+
+.submit-btn:hover{
+    background-color:#DDDDDD;
+    color: #141414;
 }
 
 .image-wrapper {

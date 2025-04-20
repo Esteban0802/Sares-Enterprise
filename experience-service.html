@@ -23,11 +23,10 @@
 </head>
 
 <body>
-    <header>
-            
-        <nav class="navbar navbar-expand-lg fixed-top">
+    <header>  
+        <nav class="navbar navbar-expand-lg fixed-bottom">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand text-center my-auto" href="#">
                         <img src="./img/Logo Sares Redondo3.png" class="brand-nav" alt="sares">
                   </a>
                 <button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,7 +41,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./about-us.html">ABOUT US</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown dropup">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               CATEGORIES
                             </a>
@@ -54,19 +53,13 @@
                               <li><a class="dropdown-item" href="./strategy-ally.html">Strategy Allys</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./news.html">NEWS</a>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
 
-        <!--btn Whatsapp-->
-        <a href="https://api.whatsapp.com/send?phone=12012050473" class="btn-wsp" target="_blank"><img src="./img/RRSS-whatsapp.png" alt="icon-wsp"></a>
-        
+    <main>     
         <div class="banner">
             <img class="img-fluid mx-auto d-block w-100" src="./img/banner-Experience - Service.jpg" alt="Banner" />
         </div>
@@ -121,34 +114,26 @@
 
         <!--CONTACT-->
 
-        <div class="contact-section d-flex align-items-center justify-content-center overflow-hidden">
-            <div class="container">
-                <div class="row align-items-center my-4">
-                    <!-- Formulario -->
-                    <div class="col-md-8 mx-auto">
-                        <h4 class="conact-title text-white">Reach out Now</h4>
-                        <p class="lead-1 ">Have questions or need more information? We’re here to help!</p>
-                        <form class="mx-auto justify-content-center" action="https://formsubmit.co/eferrada.1990@gmail.com" method="POST">
-                            <div class="mb-3">
-                                <input type="text" class="form-control mx-auto" name="name" placeholder="Your Name">
-                            </div>
-                            <div class="mb-3">
-                                <input type="text" class="form-control mx-auto" name="company" placeholder="Your Company">
-                            </div>
-                            <div class="mb-3">
-                                <input type="email" class="form-control mx-auto" name="email" placeholder="E-mail">
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control mx-auto" rows="4" name="message" placeholder="Request and Comments"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-submit submit-btn">Get in Touch</button>
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/agradecimiento.html">
-                        </form>
-                    </div>
-                </div>
+        <div class="cont-contacto py-5">
+            <div>
+                <h2 class="contact-title text-center text-white overflow-hidden" id="contact">Reach out Now</h2>
+                <p class="lead-1 text-center text-white ">Have questions or need more information? We’re here to help!</p>
             </div>
+            <form class="mx-auto justify-content-center" action="https://formsubmit.co/eferrada.1990@gmail.com" method="POST">
+                <input type="text" name="name" id="nombre" placeholder="Your Name" class="fs-6 my-2">
+                <br>
+                <input type="text" name="company" placeholder="Your Company" class="fs-6 my-2">
+                <br>
+                <input type="email" name="email" placeholder="E-mail" class="fs-6 my-2" id="email">
+                <br>
+                <textarea name="comment" id="comentario" placeholder="Request and Comments" class="fs-6 my-2"></textarea>
+                <input class="btn-send fs-6" type="submit" value="Get in Touch">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/agradecimiento.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
         </div>
+    </div>
 
         <hr>
     </main>
@@ -156,29 +141,58 @@
         <!--FOOTER-->
 
         <footer class="text-white mx-auto">
-            <div class="mx-auto text-center">
-              <!-- Logo -->
-              <div class="text-center my-5">
-                <a href="index.html" class="d-flex align-items-center text-decoration-none text-center">
-                    <img src="./img/logo Sares botom-18.png" class="logo-foot img-fluid mx-auto" alt="">
-                </a>
-              </div>
-              <!-- Términos y Políticas -->
-              <div class="d-flex justify-content-center ">
-                <div class="mx-3">
-                  <p class="text-foot fs-5 text-decoration-none fw-bold">SOCIAL NETWORKS</p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 pt-4 mx-auto border-top">
+                <div class="col mx-auto">
+                    <a href="index" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+                        <img src="./img/Identidad SARES 10.png" class=" logoA img-fluid mx-auto" alt="logo-circulolaboral">
+                    </a>
+                <div class="text-center">
+                    <a href="https://www.instagram.com/saresenterprise/" target="_blank"><img src="./img/FB_icon-icons.com_65534.png" class="logo-redes mx-1" alt="facebook"></a>
+                    <a href="https://www.instagram.com/saresenterprise/" target="_blank"><img src="./img/INSTAGRAM_icon-icons.com_65535.png" class="logo-redes mx-1" alt="instagram"></a>
+                    <a href="https://www.instagram.com/saresenterprise/" target="_blank"><img src="./img/LINKEDIN_icon-icons.com_65538.png" class="logo-redes mx-1" alt="linkedin"></a>
+                    <a href="https://api.whatsapp.com/send?phone=12012050473" target="_blank"><img src="./img/whatsapp_icon-icons.com_65542.png" class="logo-redes mx-1" alt="whatsapp"></a>
                 </div>
-              </div>
-              <!-- Redes Sociales -->
-              <div class="m2-2">
-                <a href="https://www.instagram.com/saresenterprise/" target="_blank"><img src="./img/RRSS-instagram.png" class="logo-redes" alt="instagram"></a>
-                <a href="#"><img src="./img/RRSS-linkedin.png" class="logo-redes" alt="linkedin"></a>
-              </div>
-              <!-- Derechos reservados -->
-              <div>
-                <p class="text-foot-register text-decoration-none mb-3">© Sares Enterprise. inc 2025</p>
-              </div>
-            </div>
+                </div>
+                <div class="col mb-2 mx-auto text-center">
+                    <h5 class="section overflow-hidden fw-bold text-white">CATEGORIES</h5>
+                    <ul class="nav flex-column mt-3">
+                        <li class="nav-item">
+                            <a class=" lead-2 nav-link" aria-current="page" href="./food-beverage.html">Food & Beverage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" lead-2 nav-link" href="./beauty-healt.html">Beauty & Healt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" lead-2 nav-link" href="./technology-science.html">Technology & Science</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" lead-2 nav-link" href="./experience-service.html">Experience & Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" lead-2 nav-link" href="./strategy-ally.html">Strategy Allys</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col mb-3 mx-auto text-center container-fluid justify-content-center">
+                    <h5 class="section overflow-hidden fw-bold text-white">FIND US</h5>
+                    <ul class="nav flex-column mt-3">
+                        <li class="nav-item">
+                            <p class="lead-1 text-white"><img src="./img/phone footer.png" class="icon-footer"
+                                    alt="phone-circulolaboral">+1 (201) 205-0473
+                            </p>
+                        </li>
+                         <li class="nav-item">
+                            <p class="lead-1 text-white"><img src="./img/icono-mail.png" class="icon-footer" alt="mail-circulolaboral">
+                                Aqui va el Email</p>
+                        </li>  
+                        <li class="nav-item">
+                            <p class="lead-1 text-white"><img src="./img/location.png" class="icon-footer"
+                                    alt="ubi-circulolaboral">Aqui va la direccion.</p>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <p class="lead-1 text-center text-white my-5">© Sares Enterprise. inc 2025</p>
           </footer>
 
 </body>

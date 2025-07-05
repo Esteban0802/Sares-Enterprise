@@ -6,13 +6,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    font-family: "Krungthep";
-    font-size: 1.3rem;
 
 }
 
 body {
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .navbar {
@@ -43,11 +43,13 @@ body {
 }
 
 .nav-link{
+    font-family: "Krungthep";
     font-size: 0.7rem;
     color: white;
 }
 
 .dropdown-item{
+    font-family: "Krungthep";
     font-size: 0.6rem;
     color: white;
 }
@@ -66,6 +68,11 @@ body {
     margin-top: 0rem;
 }
 
+.welcome-text{
+    font-family: "Krungthep";
+    font-size: 1.5rem;
+}
+
 .here-you{
     background-image: url(./img/Fondo\ Welcome.jpg);
     height: 90vh;
@@ -76,7 +83,7 @@ body {
 
 .lead-1{
     font-family: "Poppins", serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .lead-2{
@@ -92,7 +99,7 @@ body {
 
 .mission{
     font-family: "Poppins", serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: end;
     margin: 0px 5px 0px 5px;
 }
@@ -105,7 +112,7 @@ body {
 
 .vision{
     font-family: "Poppins", serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: start;
     margin: 0px 5px 0px 5px;
 }
@@ -170,6 +177,7 @@ body {
     width: 89%;
     font-size: 1.2rem;
     color: #161616;
+    font-family: "Krungthep";
 
 }
 
@@ -686,6 +694,7 @@ label {
 .contact-title {
     font-size: 2rem;
     font-style: normal !important;
+    font-family: "Krungthep";
 }
 
 .contact-title .sub-title {
